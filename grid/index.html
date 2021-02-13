@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Grid </title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+
+                }
+            .row {
+                width: 90%;
+                max-width: 960px;
+                margin: 0 auto;
+                height: 50vh;
+    }
+        
+            }
+            .row::after {
+                content:"";
+                display: block;
+                clear: left;
+
+            }
+            .column {
+                float:left;
+                width: 16.666%;
+                box-sizing: border-box;
+                padding: 8px;
+
+            }
+            .box {
+                height: 144px;
+                width: 144px;
+    margin: 10px; auto;
+    box-shadow: 0px 0px 10px 2px grey;
+    border: 1px solid;
+    border-radius: 15px;
+                background-color: rgb(66, 153, 235);
+                background-image: url(placeholder-image.png);
+                background-size: cover;
+                background-position: center;
+                text-align: center ;
+        
+}
+            
+            @media screen and (max-width:1024px) {
+                .column {
+                    width: 33.33%;
+                }
+                
+            }
+            @media screen and (max-width:760px) {
+                .column {
+                    width: 50%;
+                }
+                
+            }
+            @media screen and (max-width:414px) {
+                .column {
+                    width: 100%;
+                }
+                
+            }
+            body {
+font-size: 1.3em;
+}
+h1 {
+font-size: 1em;
+}
+ 
+ 
+p {
+font-size: 1em;
+}
+ 
+ 
+@media screen and (max-width: 1024px) {
+body {
+font-size: 1.2em;
+}
+}
+ 
+@media screen and (max-width: 768px) {
+body {
+font-size: 1.1em;
+}
+}
+ 
+@media screen and (max-width: 414px) {
+body {
+font-size: 1em;
+}
+}
+        </style>
+    </head>
+    <body>
+        <h1>Gallery Heading</h1>
+        <div class="row">
+            <div class="column">
+                <div class="box">
+                    <div>Image Title</div>
+                </div> 
+            </div>
+            <div class="column">
+                <div class="box">
+                    <div>Image Title</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <div>Image Title</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <div>Image Title</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <div>Image Title</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <div>Image Title</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <div>Image Title</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <div>Image Title</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <div>Image Title</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <div>Image Title</div>
+                </div>
+            </div>
+        </div>
+    
+            <p>Lorem ipsum dolor sit amet, no omnis tacimates vix, tibique quaestio voluptatum pri id, mel quas delectus adipisci ea. Constituam consectetuer ea nam, eos officiis delicata rationibus eu, eam vitae disputando dissentiet id. Verear explicari ius te, eum cu omittam percipitur, doctus noluisse percipitur ex duo. Ea viris senserit cum, ad duo illud error. Vim in alii nisl etiam. Legimus ancillae probatus his cu. Et sed animal percipit, no congue mandamus constituto est.
+
+            </p>
+        </div>
+    </body>
+
+</html>
